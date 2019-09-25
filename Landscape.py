@@ -118,6 +118,34 @@ dyson.fillcolor("goldenrod")
 dyson.circle(3)
 dyson.end_fill()
 
+isaiah.pu()
+isaiah.goto(-90,-200)
+isaiah.left(75)
+isaiah.forward(180)
+isaiah.right(90)
+isaiah.pd()
+isaiah.forward(20)
+
+def curve():
+    for i in range (3):
+        isaiah.forward(10)
+        isaiah.left(20)
+        isaiah.forward(10)
+        isaiah.left(10)
+
+curve()
+
+isaiah.forward(90)
+isaiah.right(90)
+isaiah.forward(70)
+isaiah.left(90)
+isaiah.forward(140)
+isaiah.left(90)
+isaiah.forward(130)
+isaiah.left(90)
+isaiah.forward(160)
+
+
 
 
 
