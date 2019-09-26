@@ -133,6 +133,8 @@ def curve():
         isaiah.forward(10)
         isaiah.left(10)
 
+isaiah.begin_fill()
+isaiah.fillcolor("lightgray")
 curve()
 
 isaiah.forward(90)
@@ -143,10 +145,53 @@ isaiah.forward(140)
 isaiah.left(90)
 isaiah.forward(130)
 isaiah.left(90)
-isaiah.forward(160)
+isaiah.forward(155)
+isaiah.left(90)
+isaiah.forward(20)
+isaiah.right(90)
+isaiah.forward(33)
+def curve2():
+    for i in range (3):
+        isaiah.forward(8)
+        isaiah.right(15)
+        isaiah.forward(8)
+        isaiah.right(15)
+curve2()
 
+isaiah.left(90)
+isaiah.forward(45)
+isaiah.end_fill()
 
+paige.pu()
+paige.goto(-250,-250)
+paige.pd()
+paige.begin_fill()
+paige.fillcolor("peru")
+paige.right(90)
+paige.forward(90)
+paige.right(90)
+paige.forward(45)
+paige.right(90)
+paige.forward(90)
+paige.right(90)
+paige.forward(45)
+paige.end_fill()
 
+paige.left(30)
+paige.forward(40)
+paige.left(120)
+paige.forward(40)
+paige.right(120)
+paige.forward(40)
+paige.left(120)
+paige.forward(40)
+
+paige.right(30)
+paige.forward(40)
+paige.left(120)
+paige.forward(40)
+paige.right(30)
+paige.forward(40)
 
 
 
