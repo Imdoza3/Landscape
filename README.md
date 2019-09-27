@@ -1,6 +1,6 @@
 ## landscape
 
-- [x] Landscape
+- [x] World
 
 - [x] House
 
