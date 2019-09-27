@@ -177,6 +177,8 @@ paige.right(90)
 paige.forward(45)
 paige.end_fill()
 
+paige.begin_fill()
+paige.fillcolor("green")
 paige.left(30)
 paige.forward(40)
 paige.left(120)
@@ -192,7 +194,12 @@ paige.left(120)
 paige.forward(40)
 paige.right(30)
 paige.forward(40)
-
-
+paige.left(120)
+paige.forward(40)
+paige.right(120)
+paige.forward(40)
+paige.left(120)
+paige.forward(40)
+paige.end_fill()
 
 turtle.exitonclick()
